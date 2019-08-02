@@ -1,0 +1,35 @@
+{
+  "name": "Tabless-Thursday-Back-End",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Full-lifey/Tabless-Thursday-Back-End.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Full-lifey/Tabless-Thursday-Back-End/issues"
+  },
+  "homepage": "https://github.com/Full-lifey/Tabless-Thursday-Back-End#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "helmet": "^3.20.0",
+    "knex": "^0.19.1",
+    "knex-cleaner": "^1.2.1",
+    "pg": "^7.12.0",
+    "sqlite3": "^4.0.9"
+  }
+}
